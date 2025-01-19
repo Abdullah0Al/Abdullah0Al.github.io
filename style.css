@@ -58,8 +58,7 @@
     color: #64b5f6;
   }
   
-  /* Hero Section with new image */
-  .hero-section {
+.hero-section {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -68,14 +67,11 @@
     padding: 2em;
     background: 
       linear-gradient(
-        135deg,
-        rgba(66, 165, 245, 0.6),
-        rgba(25, 118, 210, 0.6)
+        rgba(0, 0, 0, 0.6), 
+        rgba(0, 0, 0, 0.6)
       ),
-      url('https://images.unsplash.com/photo-1537432376769-00a6aef4edfa?ixlib=rb-4.0.3&auto=format&fit=crop&w=1500&q=80') 
-        center/cover no-repeat;
+      url('hero-background.jpg') center/cover no-repeat;
     color: #fff;
-    margin-top: 0;
     position: relative;
   }
   
